@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="One-of-a-kind online storefront selling custom vintage banners printed an authentic tractor paper from the 1990s" />
+    <meta name="keywords" content="Vintage,Banner,Banners,Unique,1995">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>VintageBanner.com - Create a Unique Banner on Vintage Tractor Paper</title>
+    <!-- google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-57136055-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+<!-- Main Nav -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/index.html">VintageBanner.com</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+            <li><a href="/About.html">About</a></li>
+            <li><a href="/Faq.html">FAQ</a></li>
+            <li><a href="/Contact.html">Contact</a></li>
+        </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<body>
+    <header class="masthead">
+        <div id="container">
+            <span id="output"><h1>Create a vintage banner</h1></span>
+        </div>
+    </header>
+
+    <section class="module module-blue">
+        <div class="container col-sm-offset-3 col-sm-6">
+            <form id="bannerForm">
+                <div class="form-group">
+                    <input type="email" class="form-control btm-padding" name="banner" id="banner" placeholder="Happy New Year 1996" required autocomplete="off" autofocus>
+                    <button type="button" class="btn btn-lg btn-primary" id="seeIt" title="click here to see your banner displayed above">See it</button>
+                </div>
+            </form>
+        </div>
+
+
+
+        <span id="hint">Banners must contain at least <strong>one</strong> full word (at least 4 characters)</span>
+        <span id="good"><strong>Looks Good!</strong></span>
+        </div>
+        <div id="imageAdd">Add clipart to your banner?
+            <button type="button" id="cakeBtn">Cake</button>
+            <button type="button" id="balloonBtn">balloon</button>
+            <div id="cakeWarning">One cake per banner!
+                <button type="button" id="removeCake">Remove?</button>
+            </div>
+            <div id="balloonWarning">One balloon per banner!
+                <button type="button" id="removeBalloon">Remove?</button>
+            </div>
+        </div>
+    </section>
+    <div class="container center">
+        <h2>Do you remember 1996?</h2>
+        <h3>Claris Works was the best thing since sliced bread and Tupac was still alive <em>for most of it</em>.</h3>
+        <center><img src="images/Tupac-Biggie.jpg" alt="tupac 1996" title="Tupac when he was still kickin it"></center>
+        <p>You could also print out a happy birthday banner on that special paper with the holes on each side and the bad clip art.</p>
+        <p>Everyone <strong>LOVED</strong> those stupid banners.</p>
+        <center><img src="images/HappyBirthdayDan.png" alt="unique banner" title="vintage tractor paper"></center>
+        <p>Complete the form below and I will mail you a unique banner from 1996 on vintage tractor paper with the holes.</p>
+        <p><u>This is for REAL.</u></p>
+    </div>
+    <section class="module well">
+        <div class="container">
+            <!-- new code for paypal button -->
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="form-horizontal">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="XM588QURKS2EJ">
+                <img alt="paypal" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                <!-- Alignment -->
+                <div class="col-sm-offset-3 col-sm-6">
+                    <div class="form-group control-group controls">
+                        <input type="hidden" name="on0" value="First Name">
+
+                        <input data-required="first name" class="form-control btm-padding" id="fname" type="text" placeholder="First Name" name="os0" maxlength="200">
+
+                    </div>
+                    <div class="form-group control-group controls">
+                        <input type="hidden" name="on1" value="Last Name">
+
+                        <input data-required="last name" class="form-control btm-padding" id="lname" type="text" placeholder="Last Name" name="os1" maxlength="200">
+
+                    </div>
+                    <div class="form-group control-group controls">
+                        <input type="hidden" name="on2" value="Email">
+
+                        <input data-required="email" class="form-control btm-padding" type="email" name="os2" placeholder="Email" maxlength="200">
+
+                    </div>
+                    <div class="form-group control-group controls">
+                        <input type="hidden" name="on3" value="Banner Text">
+
+                        <input data-required="banner text" class="form-control btm-padding" id="banner-text" type="text" name="os3" placeholder="Banner Text" maxlength="200">
+
+                    </div>
+                    <div class="form-group control-group controls">
+                        <input type="hidden" name="on4" value="Address">
+
+                        <input data-required="address" class="form-control btm-padding" id="address" type="text" name="os4" placeholder="Address" maxlength="200">
+
+                    </div>
+                    <div class="form-group control-group controls">
+                        <input type="hidden" name="on5" value="City">
+
+                        <input data-required="city" class="form-control btm-padding" id="city" type="text" name="os5" placeholder="City" maxlength="200">
+
+                    </div>
+                    <div class="form-group control-group controls">
+                        <input type="hidden" name="on6" value="State">
+
+                        <input data-required="state" class="form-control btm-padding" id="state" type="text" name="os6" placeholder="State" maxlength="200">
+
+                    </div>
+                    <div class="form-group control-group controls">
+                        <input type="hidden" name="on7" value="Zip">
+
+                        <input data-required="zip" class="form-control btm-padding" id="zip" type="text" name="os7" placeholder="Zip Code" maxlength="200">
+
+                    </div>
+                
+                    <!-- original order button -->
+                    <div class="paypal-submit">
+                        <button id="orderNow" type="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class="btn btn-primary pull-right">Order Now</button>
+                    </div>
+                    <!-- end original order button -->
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; Copyright 2015</p>
+            <p>Vintage Banners LLC</p>
+            <h4><a href="/legal.html" title="Legal mumbojumbo">Legal</a></h4>
+        </div>
+    </footer>
+<script src="scripts/script.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+</body>
+
+
+</html>

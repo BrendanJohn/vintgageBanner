@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <title>Happy Birthday 1996 - Create a Unique Banner on Vintage Tractor Paper</title>
+</head>
+
+<body>
+    <header class="masthead">
+        <div id="container">
+            <span id="output"><h1>Create a vintage banner</h1></span>
+        </div>
+    </header>
+
+    <section class="module module-blue">
+        <div class="container">
+            <form id="bannerForm">
+                <div class="form-group">
+                    <input type="email" class="form-control btm-padding" name="banner" id="banner" placeholder="Happy New Year 1996" required autocomplete="off" autofocus>
+                    <button type="button" class="btn btn-lg btn-primary" id="seeIt" title="click here to see your banner displayed above">See it</button>
+                </div>
+            </form>
+        </div>
+
+
+
+        <span id="hint">Banners must contain at least <strong>one</strong> full word (at least 4 characters)</span>
+        <span id="good"><strong>Looks Good!</strong></span>
+        </div>
+        <div id="imageAdd">Add clipart to your banner?
+            <button type="button" id="cakeBtn">Cake</button>
+            <button type="button" id="balloonBtn">balloon</button>
+            <div id="cakeWarning">One cake per banner!
+                <button type="button" id="removeCake">Remove?</button>
+            </div>
+            <div id="balloonWarning">One balloon per banner!
+                <button type="button" id="removeBalloon">Remove?</button>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <p>Do you remember 1996?</p>
+        <p>Claris Works was the best thing since sliced bread and Tupac was still alive (for most of it).</p>
+        <center><img src="images/Tupac-Biggie.jpg" alt="tupac 1996" title="Tupac when he was still kickin it"></center>
+        <p>You could also print out a happy birthday banner on that special paper with the holes on each side and the bad clip art.</p>
+        <p>Everyone LOVED those stupid banners.</p>
+        <center><img src="images/HappyBirthdayDan.png" alt="unique banner" title="vintage tractor paper"></center>
+        <p>Fill out the form above and I will mail you a unique banner from 1996 on vintage tractor paper with the holes.</p>
+        <p>This is for REAL.</p>
+    </div>
+    <section class="module module-green">
+        <div class="container">
+            <form id="orderForm" class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputEmail" class="control-label col-xs-2">First Name</label>
+                    <div class="col-xs-10">
+                        <input type="text" id="fName" name="fName" class="form-control btm-padding" id="inputEmail" placeholder="First Name" autocomplete="off">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword" class="control-label col-xs-2">Last Name</label>
+                    <div class="col-xs-10">
+                        <input type="text" id="lName" name="lName" class="form-control btm-padding" id="inputPassword" placeholder="Last Name" autocomplete="off">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword" class="control-label col-xs-2">Email</label>
+                    <div class="col-xs-10">
+                        <input type="text" id="email" name="email" class="form-control btm-padding" id="inputPassword" placeholder="Email" autocomplete="off">
+                    </div>
+                </div>
+            </form>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <div class="form-group">
+                    <input type="hidden" name="on0" value="Banner Text">
+                    <label for="bannerMessage" class="control-label col-xs-2">Banner Text</label>
+                    <div class="col-xs-10">
+                        <input id="bannerMessage" placeholder="Happy Birthday" type="text" class="form-control btm-padding" name="os0" maxlength="200">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="hidden" name="on1" value="Street Address">
+                    <label for="address" class="control-label col-xs-2">Full Mailing Address</label>
+                    <div class="col-xs-10">
+                        <input id="address" placeholder="Street, State, Zip" class="form-control btm-padding" type="text" name="os1" maxlength="200">
+                    </div>
+                </div>
+
+                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                <button id="orderNow" type="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class="btn btn-primary btm-padding">Order Now</button>
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright 2015</p>
+        <p>Murphy Web Design LLC</p>
+    </footer>
+</body>
+<script src="scripts/script.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+</html>

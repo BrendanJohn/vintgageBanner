@@ -1,0 +1,32 @@
+/*********** Build Version: 1.21.115.248, Date: Sat, 20 Jun 2015 01:38:09 GMT *********************/
+
+/*********** Default ******************************************************************************/
+.paypal-wrapper {
+	font-size: 16px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding: 20px;
+	margin: 20px;
+	background-color: #F5F5F5;
+	display: inline-block;
+	border: 1px solid #E3E3E3
+}
+.form-group {
+	margin-bottom: 5px
+}
+.form-group input[type="email"], .form-group input[type="text"] {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	width: 400px;
+	padding: 10px;
+	border: 1px solid #E3E3E3
+}
+.form-group label {
+	width: 95px;
+	display: inline-block;
+	text-align: right;
+	margin-right: 10px
+}
+.paypal-submit {
+	margin-top: 30px;
+	text-align: center
+}

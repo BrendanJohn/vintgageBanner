@@ -1,0 +1,6 @@
+Sitemap: https://www.vintagebanner.com/sitemap.xml
+User-Agent: *
+Disallow: /account/
+Disallow: /api/ 
+Disallow: /cgi-bin/ 
+Disallow: /Monitor/ 

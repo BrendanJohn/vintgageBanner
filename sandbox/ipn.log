@@ -1,0 +1,61 @@
+[2015-06-22 21:01 UTC] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1477
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=5.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=UZ3EPMUL39BA8&tax=0.00&address_street=1+Main+St&payment_date=14%3A01%3A09+Jun+22%2C+2015+PDT&payment_status=Completed&charset=windows-1252&address_zip=95131&first_name=test&option_selection1=Stephen&option_selection2=Zuranski&option_selection3=stevezur%40comcast.net&option_selection4=asdasdasdasdasd&mc_fee=0.45&option_selection5=20024+Arbor+Lane&address_country_code=US&option_selection6=Mokena&address_name=test+buyer&option_selection7=Illinois&notify_version=3.8&option_selection8=60448&custom=&payer_status=verified&business=stevezur-facilitator%40comcast.net&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AHCKE.K1ubDB0kNbWb.Ljxs.0SC8A4d-Owt4i1FTNoXdaNWJflYE7Fjf&payer_email=stevezur-buyer%40comcast.net&option_name1=First+Name&option_name2=Last+Name&option_name3=Email&option_name4=Banner+Text&option_name5=Address&option_name6=City&option_name7=State&option_name8=Zip&txn_id=39481893C53063315&payment_type=instant&btn_id=3169852&last_name=buyer&address_state=CA&receiver_email=stevezur-facilitator%40comcast.net&payment_fee=0.45&shipping_discount=0.00&insurance_amount=0.00&receiver_id=U4W9V47JQ5R2E&txn_type=web_accept&item_name=Banner&discount=0.00&mc_currency=USD&item_number=001&residence_country=US&test_ipn=1&shipping_method=Default&handling_amount=0.00&transaction_subject=&payment_gross=5.00&shipping=0.00&ipn_track_id=5c808a0f7cff5
+[2015-06-22 21:01 UTC] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Mon, 22 Jun 2015 21:01:13 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=6HlWJ_sfqbxHqQmsPnB3IrU282jDmlf6Y8iiVghjN1_-hIV8BpolSLRnWleS2U-bsI1VuHB1uOQtc9RCB2oU2Ah_AC65GjU9Sk_ztr8hXKYnpc-HdX8pncESop_IjfzH9J2ptKhOJQvt_3UQyQcTx8CJo-I7SgMPpX50A2gGtAY5pmn2YaPkY0o5ilRw2Nf4lGpDgOAGStOjMU-YisSQh8nnbVyGQ3sajrn6ivqb4x95-skIgZYc6pn7KPnqu8lKZK3r5IikEUeL1tiPSnkKoInXWyiLMmuJdBR1KJzYM0Dx50wVCl86mlyAlQLuq5O3o-lQD53GLU6STUaYzgElGyB8oELcdznBd9Bef3R9zhSgaBjYA7rwudjdFzzUFkhfbfSJGOC2FdK-qUKSHEbn4fpXq8xq98covBotX0aCQ6UNqmP9HB-PHTRowcO; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 19-Jun-2025 21:01:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 21-Jun-2017 21:01:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1435006873840107; path=/; expires=Wed, 14-Jun-45 21:01:13 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: 896ee6b8c8977
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2574747733; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1435006873821384; path=/; expires=Wed, 14-Jun-45 21:01:13 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2015-06-22 21:01 UTC] Verified IPN: cmd=_notify-validate&mc_gross=5.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=UZ3EPMUL39BA8&tax=0.00&address_street=1+Main+St&payment_date=14%3A01%3A09+Jun+22%2C+2015+PDT&payment_status=Completed&charset=windows-1252&address_zip=95131&first_name=test&option_selection1=Stephen&option_selection2=Zuranski&option_selection3=stevezur%40comcast.net&option_selection4=asdasdasdasdasd&mc_fee=0.45&option_selection5=20024+Arbor+Lane&address_country_code=US&option_selection6=Mokena&address_name=test+buyer&option_selection7=Illinois&notify_version=3.8&option_selection8=60448&custom=&payer_status=verified&business=stevezur-facilitator%40comcast.net&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AHCKE.K1ubDB0kNbWb.Ljxs.0SC8A4d-Owt4i1FTNoXdaNWJflYE7Fjf&payer_email=stevezur-buyer%40comcast.net&option_name1=First+Name&option_name2=Last+Name&option_name3=Email&option_name4=Banner+Text&option_name5=Address&option_name6=City&option_name7=State&option_name8=Zip&txn_id=39481893C53063315&payment_type=instant&btn_id=3169852&last_name=buyer&address_state=CA&receiver_email=stevezur-facilitator%40comcast.net&payment_fee=0.45&shipping_discount=0.00&insurance_amount=0.00&receiver_id=U4W9V47JQ5R2E&txn_type=web_accept&item_name=Banner&discount=0.00&mc_currency=USD&item_number=001&residence_country=US&test_ipn=1&shipping_method=Default&handling_amount=0.00&transaction_subject=&payment_gross=5.00&shipping=0.00&ipn_track_id=5c808a0f7cff5 
+[2015-06-28 00:15 UTC] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 20
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate
+[2015-06-28 00:15 UTC] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sun, 28 Jun 2015 00:15:06 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=YTPbOCT-5zTmdtvM6VYnPdoIsDL2EoseVNgTWYfD3NbkDgjJnhXgeIUWZ67QYn-BH7B5niFflX8z3fBi_MLgl5AuS-ph_jpab1euqSImHmfVZ42_sP26CkHfAaN81gayfBKBBiPH6O7ZuYGS_nnpp09oE4Afi2ghDX9MUh3Ro38f6zLnVly1ct2QE_rkaIjfe6oGySE2EGvsINyTC8fBelJ0QrlxeYQwYn5NTZ6_KP3yBmRRZenCjGtcyOTflAutl-U9zuLRmMkT5rQ1LxnHTEqF5Fg6vmVpqXjtI4knPA6fBMzraJMpIC6liaaDzEju_HN_DgvdBfkUT5SjaBLgeM9ZEXEYAJYSyXUa10aQS23VDeMDLJEtcCqre87m0_DPDjRR4Ug25TzeB_m-oss_ZIK-lcaTcePguA_6TyUrkEODJvcjKnH_PBT5Rue; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 25-Jun-2025 00:15:06 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 27-Jun-2017 00:15:06 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1435450506184333; path=/; expires=Tue, 20-Jun-45 00:15:06 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: fd34b1328dda
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2319224661; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1435450506167075; path=/; expires=Tue, 20-Jun-45 00:15:06 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+INVALID
+[2015-06-28 00:15 UTC] Invalid IPN: cmd=_notify-validate

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <title>Happy Birthday 1996 - Create a Unique Banner on Vintage Tractor Paper</title>
+</head>
+
+<body>
+    <header class="masthead">
+        <div id="container">
+            <span id="output"><h1>Create a vintage banner</h1></span>
+        </div>
+    </header>
+
+    <section class="module module-blue">
+        <div class="container">
+            <form id="bannerForm">
+                <div class="form-group">
+                    <input type="email" class="form-control btm-padding" name="banner" id="banner" placeholder="Happy New Year 1996" required autocomplete="off" autofocus>
+                    <button type="button" class="btn btn-lg btn-primary" id="seeIt" title="click here to see your banner displayed above">See it</button>
+                </div>
+            </form>
+        </div>
+
+
+
+        <span id="hint">Banners must contain at least <strong>one</strong> full word (at least 4 characters)</span>
+        <span id="good"><strong>Looks Good!</strong></span>
+        </div>
+        <div id="imageAdd">Add clipart to your banner?
+            <button type="button" id="cakeBtn">Cake</button>
+            <button type="button" id="balloonBtn">balloon</button>
+            <div id="cakeWarning">One cake per banner!
+                <button type="button" id="removeCake">Remove?</button>
+            </div>
+            <div id="balloonWarning">One balloon per banner!
+                <button type="button" id="removeBalloon">Remove?</button>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <p>Do you remember 1996?</p>
+        <p>Claris Works was the best thing since sliced bread and Tupac was still alive (for most of it).</p>
+        <center><img src="images/Tupac-Biggie.jpg" alt="tupac 1996" title="Tupac when he was still kickin it"></center>
+        <p>You could also print out a happy birthday banner on that special paper with the holes on each side and the bad clip art.</p>
+        <p>Everyone LOVED those stupid banners.</p>
+        <center><img src="images/HappyBirthdayDan.png" alt="unique banner" title="vintage tractor paper"></center>
+        <p>Fill out the form above and I will mail you a unique banner from 1996 on vintage tractor paper with the holes.</p>
+        <p>This is for REAL.</p>
+    </div>
+    <section class="module module-green">
+        <div class="container">
+			<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top" class="form-horizontal">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="S453R3X86PX78">
+				<div class="form-group">
+					<input type="hidden" name="on0" value="First Name">
+					<label for="fname" class="control-label col-xs-2">First Name</label>
+					<div class="col-xs-10">
+						<input data-required="first name" class="form-control btm-padding" id="fname" type="text" name="os0" maxlength="200">
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="hidden" name="on1" value="Last Name">
+					<label for="lname" class="control-label col-xs-2">Last Name</label>
+					<div class="col-xs-10">
+						<input data-required="last name" class="form-control btm-padding" id="lname" type="text" name="os1" maxlength="200">
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="hidden" name="on2" value="Email">
+					<label for="email" class="control-label col-xs-2">Email</label>
+					<div class="col-xs-10">
+						<input data-required="email" class="form-control btm-padding" type="email" name="os2" maxlength="200">
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="hidden" name="on3" value="Banner Text">
+					<label for="banner-text" class="control-label col-xs-2">Banner Text</label>
+					<div class="col-xs-10">
+						<input data-required="banner text" class="form-control btm-padding" id="banner-text" type="text" name="os3" maxlength="200">
+					</div>
+				</div>
+				<div class="form-group">		
+					<input type="hidden" name="on4" value="Address">
+					<label for="address" class="control-label col-xs-2">Address</label>		
+					<div class="col-xs-10">
+						<input data-required="address" class="form-control btm-padding" id="address" type="text" name="os4" maxlength="200">
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="hidden" name="on5" value="City">
+					<label for="city" class="control-label col-xs-2">City</label>		
+					<div class="col-xs-10">
+						<input data-required="city" class="form-control btm-padding" id="city" type="text" name="os5" maxlength="200">
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="hidden" name="on6" value="State">
+					<label for="state" class="control-label col-xs-2">State</label>		
+					<div class="col-xs-10">
+						<input data-required="state" class="form-control btm-padding" id="state" type="text" name="os6" maxlength="200">
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="hidden" name="on7" value="Zip">
+					<label for="zip" class="control-label col-xs-2">Zip</label>
+					<div class="col-xs-10">
+						<input data-required="zip" class="form-control btm-padding" id="zip" type="text" name="os7" maxlength="200">
+					</div>
+				</div>
+				<div class="paypal-submit">
+					<button id="orderNow" type="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class="btn btn-primary btm-padding">Order Now</button>
+				</div>
+			</form
+        </div>
+    </section>
+    <footer>
+        <p>Copyright 2015</p>
+        <p>Murphy Web Design LLC</p>
+    </footer>
+</body>
+<script src="scripts/script.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+</html>
