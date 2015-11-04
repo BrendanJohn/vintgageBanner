@@ -1,6 +1,6 @@
 <?php
 
-define('ADMIN_EMAILS', 'szuranski@gmail.com, bjohnmurphy1984@gmail.com');
+define('ADMIN_EMAILS', 'bjohnmurphy1984@gmail.com');
 
 // CONFIG: Enable debug mode. This means we'll log requests into 'ipn.log' in the same directory.
 // Especially useful if you encounter network errors or other intermittent problems with IPN (validation).
