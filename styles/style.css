@@ -12,7 +12,7 @@
 .btm-padding {margin-bottom: 10px;}
 #output h1 {background-image: url("../images/TractorPaper.gif"); font-size: 50px;}
 .center {text-align: center;}
-
+.clear {clear: both;}
 
 body { font-family: "Brandon Grotesque", "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 17px; line-height: 1.42857143; color: #605f5d; background-color: #efede7;}
 body p { font-family: "Brandon Grotesque", "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 22px; text-align: center;}
